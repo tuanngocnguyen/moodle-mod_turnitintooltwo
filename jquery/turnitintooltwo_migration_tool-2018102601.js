@@ -14,7 +14,7 @@ $(document).ready(function(){
             if (data.migrated === true) {
                 window.location.href = M.cfg.wwwroot + "/mod/turnitintooltwo/view.php?id="+data.v2id;
             } else {
-                displayMigrationModal();
+                //displayMigrationModal();
 
                 $('.dontmigrate_link').click($.proxy(dontmigrate, null, $.colorbox));
             }
